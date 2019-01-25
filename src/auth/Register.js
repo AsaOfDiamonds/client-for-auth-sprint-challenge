@@ -6,7 +6,7 @@ const initialUser = {
   password: '',
 }
 
-export default class Register extends Component {
+class Register extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -75,3 +75,5 @@ export default class Register extends Component {
     )
   }
 } 
+
+export default Register;
