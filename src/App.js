@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className='top_nav'>
+        <nav className='top-nav'>
           <NavLink to='/login' style={{ textDecoration: 'none' }}>Log in</NavLink>
           &nbsp;|&nbsp;
           <NavLink to='/register' style={{ textDecoration: 'none' }}>Register</NavLink>

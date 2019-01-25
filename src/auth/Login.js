@@ -41,7 +41,7 @@ class Login extends Component {
 
   render() {
     return (
-      <div>
+      <div className='login'>
         <form onSubmit={this.submitHandler}>
           <section>
             <h1>Login Page</h1>

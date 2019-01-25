@@ -54,7 +54,7 @@ class Jokes extends Component {
 
   render() {
     return (
-      <div>
+      <div className='jokes'>
         <button onClick={this.logout}>Log out</button>
         <h1>Dad Jokes</h1>
         <ul>
