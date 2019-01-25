@@ -56,7 +56,7 @@ class Jokes extends Component {
     return (
       <div>
         <button onClick={this.logout}>Log out</button>
-        <h1>Jokes</h1>
+        <h1>Dad Jokes</h1>
         <ul>
           {this.state.jokes.map(joke => {
             return (

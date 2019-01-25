@@ -11,10 +11,13 @@ class App extends Component {
     return (
       <div className="App">
         <nav className='top_nav'>
-          <NavLink to='/jokes' style={{ textDecoration: 'none' }}>OK Dad make me laugh</NavLink>
           <NavLink to='/login' style={{ textDecoration: 'none' }}>Log in</NavLink>
+          &nbsp;|&nbsp;
           <NavLink to='/register' style={{ textDecoration: 'none' }}>Register</NavLink>
-          <button onClick={this.Logout}>Log out</button>
+          <NavLink to='/jokes' style={{ textDecoration: 'none' }}>
+          <h1>OK Dad make me laugh</h1>
+          </NavLink>
+          <br />          
         </nav>
 
         <section>
